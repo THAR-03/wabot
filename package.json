@@ -1,0 +1,14 @@
+{
+  "name": "termux-wa-terminal",
+  "version": "1.0.0",
+  "description": "Klien WhatsApp terminal untuk Termux - balas chat pribadi tanpa buka WhatsApp",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
